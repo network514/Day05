@@ -4,22 +4,22 @@ public class J04_Wrapper {
 		double d = 12.34;
 		int i;
 		i = (int)d;
-//		=> ¼öÄ¡ µ¥ÀÌÅÍ´Â Cast¸¦ ÅëÇØ Çüº¯È¯ÀÌ °¡´ÉÇÏ´Ù.
+//		=> ìˆ˜ì¹˜ ë°ì´í„°ëŠ” Castë¥¼ í†µí•´ í˜•ë³€í™˜ì´ ê°€ëŠ¥í•˜ë‹¤.
 		
 		String s = "123";
-//		int ss = (int)s; // ¿¡·¯
-//		=> String ÇüÅÂÀÇ µ¥ÀÌÅÍ´Â Cast ¿¬»êÀÚ·Î´Â º¯È¯ÇÒ ¼ö ¾ø´Ù.
+//		int ss = (int)s; // ì—ëŸ¬
+//		=> String í˜•íƒœì˜ ë°ì´í„°ëŠ” Cast ì—°ì‚°ìë¡œëŠ” ë³€í™˜í•  ìˆ˜ ì—†ë‹¤.
 		
-//		String ÇüÅÂÀÇ Á¤¼ö¸¦ ½ÇÁ¦ ÀÏ¹İÇü Á¤¼ö µ¥ÀÌÅÍ·Î º¯È¯ÇÏ´Â °æ¿ì
-//		- Çü½Ä Integer.parseInt();
+//		String í˜•íƒœì˜ ì •ìˆ˜ë¥¼ ì‹¤ì œ ì¼ë°˜í˜• ì •ìˆ˜ ë°ì´í„°ë¡œ ë³€í™˜í•˜ëŠ” ê²½ìš°
+//		- í˜•ì‹ Integer.parseInt();
 		
 		String p1 = "123";
 		int p2 = Integer.parseInt(p1);
 		System.out.println("p2 : " + p2);
 		System.out.println("p2 + 10 : " + (p2+10));
 		
-//		String ÇüÅÂÀÇ ½Ç¼ö¸¦ ÀÏ¹İÇü ½Ç¼öµ¥ÀÌÅÍ·Î º¯È¯ÇÏ´Â °æ¿ì
-//		- Çü½Ä : Double.parseDouble();
+//		String í˜•íƒœì˜ ì‹¤ìˆ˜ë¥¼ ì¼ë°˜í˜• ì‹¤ìˆ˜ë°ì´í„°ë¡œ ë³€í™˜í•˜ëŠ” ê²½ìš°
+//		- í˜•ì‹ : Double.parseDouble();
 		String k1 = "12.34";
 		double k2 = Double.parseDouble(k1);
 		System.out.println("k2 : " + k2);

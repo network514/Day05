@@ -3,24 +3,24 @@ import javax.swing.JOptionPane;
 public class J05_Joption01 {
 
 	public static void main(String[] args) {
-		String msg = "º¸¿©ÁÖ°í ½ÍÀº ¹®Àå";
+		String msg = "ë³´ì—¬ì£¼ê³  ì‹¶ì€ ë¬¸ì¥";
 		System.out.println(msg);
 		
 		JOptionPane.showMessageDialog(null, msg);
-//		=> º¸¿©ÁÖ°í ½ÍÀº ¸Ş½ÃÁö¸¦ guiÇü½ÄÀ» ÅëÇØ Á¦°øÇÔ
-//		=> ¼Ò°ıÈ£ ¾ÈÂÊÀº ±âº»ÀûÀ¸·Î, null°ú Ãâ·ÂÇÏ°í ½ÍÀº ¸Ş½ÃÁö¸¦ ÀÔ·ÂÇÑ´Ù.
-		JOptionPane.showMessageDialog(null, "À¸ÈìÀ¸Èì");
+//		=> ë³´ì—¬ì£¼ê³  ì‹¶ì€ ë©”ì‹œì§€ë¥¼ guií˜•ì‹ì„ í†µí•´ ì œê³µí•¨
+//		=> ì†Œê´„í˜¸ ì•ˆìª½ì€ ê¸°ë³¸ì ìœ¼ë¡œ, nullê³¼ ì¶œë ¥í•˜ê³  ì‹¶ì€ ë©”ì‹œì§€ë¥¼ ì…ë ¥í•œë‹¤.
+		JOptionPane.showMessageDialog(null, "ìœ¼í ìœ¼í ");
 		JOptionPane.showMessageDialog(null, 1872638912);
 		JOptionPane.showMessageDialog(null, 123431.14144564534343444);
-//		=> º¸¿©ÁÖ°í ½ÍÀº ³»¿ëÀÌ StringÀÌ ¾Æ´Ï´õ¶óµµ Á¤¼ö, ½Ç¼öÀÇ ÇüÅÂ µ¥ÀÌÅÍµµ ¹®Á¦¾øÀÌ ÀÌ¿ë °¡´ÉÇÏ´Ù.
+//		=> ë³´ì—¬ì£¼ê³  ì‹¶ì€ ë‚´ìš©ì´ Stringì´ ì•„ë‹ˆë”ë¼ë„ ì •ìˆ˜, ì‹¤ìˆ˜ì˜ í˜•íƒœ ë°ì´í„°ë„ ë¬¸ì œì—†ì´ ì´ìš© ê°€ëŠ¥í•˜ë‹¤.
 		
-		String rcv = JOptionPane.showInputDialog("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä.");
-//		=> À§¿Í °°ÀÌ ÀÔ·Â¹Ş´Â ±â´ÉÀ» »ç¿ëÇÏ¸é, guiÈ­¸é »ó¿¡ ÀÔ·ÂµÈ ³»¿ëÀÌ ÇÁ·Î±×·¥ ¿µ¿ª¿¡
-//		µµÂøÇÏ´Âµ¥, ¹«Á¶°Ç String ÇüÅÂ·Î Á¦°øµÇ¹Ç·Î String º¯¼ö¿¡ ÀúÀåÇØ¾ß ÇÑ´Ù.
+		String rcv = JOptionPane.showInputDialog("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”.");
+//		=> ìœ„ì™€ ê°™ì´ ì…ë ¥ë°›ëŠ” ê¸°ëŠ¥ì„ ì‚¬ìš©í•˜ë©´, guií™”ë©´ ìƒì— ì…ë ¥ëœ ë‚´ìš©ì´ í”„ë¡œê·¸ë¨ ì˜ì—­ì—
+//		ë„ì°©í•˜ëŠ”ë°, ë¬´ì¡°ê±´ String í˜•íƒœë¡œ ì œê³µë˜ë¯€ë¡œ String ë³€ìˆ˜ì— ì €ì¥í•´ì•¼ í•œë‹¤.
 		System.out.println(rcv);
 		
-		String rcv2 = JOptionPane.showInputDialog("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		String rcv2 = JOptionPane.showInputDialog("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		int num = Integer.parseInt(rcv2);
-		JOptionPane.showMessageDialog(null, "ÀÔ·Â¹ŞÀº ¼ö + 10 = "+ (num+10));
+		JOptionPane.showMessageDialog(null, "ì…ë ¥ë°›ì€ ìˆ˜ + 10 = "+ (num+10));
 	}
 }

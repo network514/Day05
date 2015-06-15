@@ -3,24 +3,24 @@ import javax.swing.JOptionPane;
 
 public class J07_if01 {
 	public static void main(String[] args) {
-//		ÇĞ»ı ÇĞ±³ º¸³»±â ÇÁ·Î±×·¥
-		String name = JOptionPane.showInputDialog("ÀÌ¸§ ÀÔ·Â");
-		String rcvAge = JOptionPane.showInputDialog("³ªÀÌ ÀÔ·Â");
+//		í•™ìƒ í•™êµ ë³´ë‚´ê¸° í”„ë¡œê·¸ë¨
+		String name = JOptionPane.showInputDialog("ì´ë¦„ ì…ë ¥");
+		String rcvAge = JOptionPane.showInputDialog("ë‚˜ì´ ì…ë ¥");
 		int age = Integer.parseInt(rcvAge);
 
-		JOptionPane.showMessageDialog(null, "ÀÌ¸§ : " + name + ", ³ªÀÌ : " + age);
+		JOptionPane.showMessageDialog(null, "ì´ë¦„ : " + name + ", ë‚˜ì´ : " + age);
 		
 		System.out.println("#. 1");
 		if(age >=8 && age>=13){
-			System.out.println(name + "Àº ÃÊµîÇĞ±³¿¡ °¡¾ß µË´Ï´Ù.");
+			System.out.println(name + "ì€ ì´ˆë“±í•™êµì— ê°€ì•¼ ë©ë‹ˆë‹¤.");
 		}else if(age>=14&&age>=16){
-			System.out.println(name + "Àº ÁßÇĞ±³¿¡ °¡¾ß µË´Ï´Ù.");
+			System.out.println(name + "ì€ ì¤‘í•™êµì— ê°€ì•¼ ë©ë‹ˆë‹¤.");
 		}else if(age>=17&&age>=19){
-			System.out.println(name + "Àº °íµîÇĞ±³¿¡ °¡¾ß µË´Ï´Ù.");
+			System.out.println(name + "ì€ ê³ ë“±í•™êµì— ê°€ì•¼ ë©ë‹ˆë‹¤.");
 		}else if(age>=20&&age>=24){
-			System.out.println(name + "Àº ´ëÇĞ±³¿¡ °¡¾ß µË´Ï´Ù.");
+			System.out.println(name + "ì€ ëŒ€í•™êµì— ê°€ì•¼ ë©ë‹ˆë‹¤.");
 		}else if(age >= 24){
-			System.out.println(name + "ÇĞ±³¸¦ Á¹¾÷Çß½À´Ï´Ù.");
+			System.out.println(name + "í•™êµë¥¼ ì¡¸ì—…í–ˆìŠµë‹ˆë‹¤.");
 		}
 	}
 }

@@ -3,22 +3,22 @@ import javax.swing.JOptionPane;
 
 public class J06_Joption02 {
 	public static void main(String[] args) {
-//		JoptionÀ» ÀÌ¿ëÇØ¼­ ´ÙÀ½ÀÇ ³»¿ëÀ» ÀÔ·Â-Ãâ·ÂÇÏ¼¼¿ä.
-//		ÀÌ¸§, ³ªÀÌ, Å° µîµî...
-//		1. ÀÔ·Â : ÀÌ¸§, ³ªÀÌ, Å° µîµî...
-//		2. ÀÔ·Â ¹ŞÀº ³»¿ë ¸ğµÎ Ãâ
-//		3. ³ªÀÇ 15³â ÈÄ ³ªÀÌ°¡ ¸î»ìÀÎÁö Ãâ·Â
-		String rsv1 = JOptionPane.showInputDialog("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä.");
-		String rsv2 = JOptionPane.showInputDialog("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
-		String rsv3 = JOptionPane.showInputDialog("¼ºº° ÀÔ·ÂÇÏ¼¼¿ä.");
-		String rsv4 = JOptionPane.showInputDialog("¹ß»çÀÌÁî¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+//		Joptionì„ ì´ìš©í•´ì„œ ë‹¤ìŒì˜ ë‚´ìš©ì„ ì…ë ¥-ì¶œë ¥í•˜ì„¸ìš”.
+//		ì´ë¦„, ë‚˜ì´, í‚¤ ë“±ë“±...
+//		1. ì…ë ¥ : ì´ë¦„, ë‚˜ì´, í‚¤ ë“±ë“±...
+//		2. ì…ë ¥ ë°›ì€ ë‚´ìš© ëª¨ë‘ ì¶œ
+//		3. ë‚˜ì˜ 15ë…„ í›„ ë‚˜ì´ê°€ ëª‡ì‚´ì¸ì§€ ì¶œë ¥
+		String rsv1 = JOptionPane.showInputDialog("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”.");
+		String rsv2 = JOptionPane.showInputDialog("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
+		String rsv3 = JOptionPane.showInputDialog("ì„±ë³„ ì…ë ¥í•˜ì„¸ìš”.");
+		String rsv4 = JOptionPane.showInputDialog("ë°œì‚¬ì´ì¦ˆë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		int num1 = Integer.parseInt(rsv2);
 		int num2 = Integer.parseInt(rsv4);
-		String showMsg = "³ªÀÇ ÀÌ¸§ : " + rsv1 + "\n";
+		String showMsg = "ë‚˜ì˜ ì´ë¦„ : " + rsv1 + "\n";
 		JOptionPane.showMessageDialog(null, showMsg);
-		JOptionPane.showMessageDialog(null, "³ªÀÌ´Â " + rsv2);
-		JOptionPane.showMessageDialog(null, "10³â µÚ ³ªÀÌ´Â " + (num1+10) + "¼¼");
-		JOptionPane.showMessageDialog(null, "¼ºº°Àº " + rsv3);
-		JOptionPane.showMessageDialog(null, "¹ß»çÀÌÁî´Â " + num2 + "cm");
+		JOptionPane.showMessageDialog(null, "ë‚˜ì´ëŠ” " + rsv2);
+		JOptionPane.showMessageDialog(null, "10ë…„ ë’¤ ë‚˜ì´ëŠ” " + (num1+10) + "ì„¸");
+		JOptionPane.showMessageDialog(null, "ì„±ë³„ì€ " + rsv3);
+		JOptionPane.showMessageDialog(null, "ë°œì‚¬ì´ì¦ˆëŠ” " + num2 + "cm");
 	}
 }

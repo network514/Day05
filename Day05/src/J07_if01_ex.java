@@ -1,24 +1,23 @@
 import javax.swing.JOptionPane;
 
-
 public class J07_if01_ex {
 	public static void main(String[] args) {
-		String name = JOptionPane.showInputDialog("ÀÌ¸§ ÀÔ·Â");
-		String rcvAge = JOptionPane.showInputDialog("³ªÀÌ ÀÔ·Â");
+		String name = JOptionPane.showInputDialog("ì´ë¦„ ì…ë ¥");
+		String rcvAge = JOptionPane.showInputDialog("ë‚˜ì´ ì…ë ¥");
 		int age = Integer.parseInt(rcvAge);
 
-		JOptionPane.showMessageDialog(null, "ÀÌ¸§ : " + name + ", ³ªÀÌ : " + age);
+		JOptionPane.showMessageDialog(null, "ì´ë¦„ : " + name + ", ë‚˜ì´ : " + age);
 		
 		if(age >=8 && age>=13){
-			JOptionPane.showMessageDialog(null, name + "Àº ÃÊµîÇĞ±³¿¡ °¡¾ß µË´Ï´Ù.");
+			JOptionPane.showMessageDialog(null, name + "ì€ ì´ˆë“±í•™êµì— ê°€ì•¼ ë©ë‹ˆë‹¤.");
 		}else if(age>=14&&age>=16){
-			JOptionPane.showMessageDialog(null, name + "Àº ÁßÇĞ±³¿¡ °¡¾ß µË´Ï´Ù.");
+			JOptionPane.showMessageDialog(null, name + "ì€ ì¤‘í•™êµì— ê°€ì•¼ ë©ë‹ˆë‹¤.");
 		}else if(age>=17&&age>=19){
-			JOptionPane.showMessageDialog(null, name + "Àº °íµîÇĞ±³¿¡ °¡¾ß µË´Ï´Ù.");
+			JOptionPane.showMessageDialog(null, name + "ì€ ê³ ë“±í•™êµì— ê°€ì•¼ ë©ë‹ˆë‹¤.");
 		}else if(age>=20&&age>=24){
-			JOptionPane.showMessageDialog(null, name + "Àº ´ëÇĞ±³¿¡ °¡¾ß µË´Ï´Ù.");
+			JOptionPane.showMessageDialog(null, name + "ì€ ëŒ€í•™êµì— ê°€ì•¼ ë©ë‹ˆë‹¤.");
 		}else if(age >= 24){
-			JOptionPane.showMessageDialog(null, name + "ÇĞ±³¸¦ Á¹¾÷Çß½À´Ï´Ù.");
+			JOptionPane.showMessageDialog(null, name + "í•™êµë¥¼ ì¡¸ì—…í–ˆìŠµë‹ˆë‹¤.");
 		}
 	}
 }

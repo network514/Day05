@@ -1,7 +1,6 @@
-
 public class J02_Cast_ex01 {
 	public static void main(String[] args) {
-//		Çüº¯È¯ÀÇ ÀÌ¿ë : Æò±Õ ±¸ÇÏ±â
+//		í˜•ë³€í™˜ì˜ ì´ìš© : í‰ê·  êµ¬í•˜ê¸°
 		
 		int kor = 76;
 		int eng = 79;
@@ -10,11 +9,11 @@ public class J02_Cast_ex01 {
 		int sum = kor + eng + math;
 
 		double avg= sum / 3;
-//		=> Á¤¼ö / Á¤¼ö »óÈ²¿¡¼­ / ¿¬»êÀÚ´Â ¸ò¿¡¸¸ °ü½ÉÀÌ ÀÖ±â ¶§¹®¿¡ Á¤¼ö·Î¸¸ ³ª¿Â´Ù.
-//		=> ±×·¯¹Ç·Î, °á°ú°¡ Á¤¼öÀÎµ¥, º¯¼ö¸¦ double·Î ¸¸µé¸é ¹«Á¶°Ç ¼Ò¼öÁ¡ ÀÚ¸®°¡ .0À¸·Î ³ª¿Â´Ù.
+//		=> ì •ìˆ˜ / ì •ìˆ˜ ìƒí™©ì—ì„œ / ì—°ì‚°ìžëŠ” ëª«ì—ë§Œ ê´€ì‹¬ì´ ìžˆê¸° ë•Œë¬¸ì— ì •ìˆ˜ë¡œë§Œ ë‚˜ì˜¨ë‹¤.
+//		=> ê·¸ëŸ¬ë¯€ë¡œ, ê²°ê³¼ê°€ ì •ìˆ˜ì¸ë°, ë³€ìˆ˜ë¥¼ doubleë¡œ ë§Œë“¤ë©´ ë¬´ì¡°ê±´ ì†Œìˆ˜ì  ìžë¦¬ê°€ .0ìœ¼ë¡œ ë‚˜ì˜¨ë‹¤.
 		System.out.println("avg : " + avg);
-//		=> ±×·¯¹Ç·Î ¿¬»ê½Ä¿¡¼­ÀÇ Çüº¯È¯ ±ÔÄ¢À» ÀÌ¿ëÇØ¾ß ÇÑ´Ù.
-//		=> Á¤¼ö / Á¤¼ö ÇüÅÂÀÇ ¿¬»ê½ÄÀ» ½Ç¼ö/Á¤¼ö ¶Ç´Â Á¤¼ö/½Ç¼ö ÇüÅÂÀÇ ¿¬»ê½ÄÀÌ µÇµµ·Ï ÇØ¾ßÇÑ´Ù.
+//		=> ê·¸ëŸ¬ë¯€ë¡œ ì—°ì‚°ì‹ì—ì„œì˜ í˜•ë³€í™˜ ê·œì¹™ì„ ì´ìš©í•´ì•¼ í•œë‹¤.
+//		=> ì •ìˆ˜ / ì •ìˆ˜ í˜•íƒœì˜ ì—°ì‚°ì‹ì„ ì‹¤ìˆ˜/ì •ìˆ˜ ë˜ëŠ” ì •ìˆ˜/ì‹¤ìˆ˜ í˜•íƒœì˜ ì—°ì‚°ì‹ì´ ë˜ë„ë¡ í•´ì•¼í•œë‹¤.
 		
 		avg= (double)sum / 3;
 		System.out.println("avg : " + avg);
